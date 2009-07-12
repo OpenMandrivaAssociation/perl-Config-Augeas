@@ -5,7 +5,7 @@ Version:        0.500
 Release:        %mkrel 1
 Summary:        Edit configuration files through Augeas C library
 License:        LGPLv2+
-Group:          Development/Libraries
+Group:          System/Configuration
 URL:            http://search.cpan.org/dist/Config-Augeas/
 Source0:        http://www.cpan.org/modules/by-module/Config/Config-Augeas-%{version}.tar.gz
 Patch0:			gcc-fix.patch
