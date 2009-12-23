@@ -1,5 +1,5 @@
 %define upstream_name       Config-Augeas
-%define upstream_version    0.501
+%define upstream_version 0.601
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
