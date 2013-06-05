@@ -2,13 +2,13 @@
 %define upstream_version 0.903
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
+Version:	%perl_convert_version 1.000
 Release:	1
 Summary:	Edit configuration files through Augeas C library
 License:	GPL or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source:		http://www.cpan.org/modules/by-module/Config/%{upstream_name}-%{upstream_version}.tar.gz
+Source:		http://www.cpan.org/modules/by-module/Config/Config-Augeas-1.000.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:	perl(Module::Build)
 BuildRequires:	perl(Test::More)
@@ -81,4 +81,5 @@ perl Build.PL installdirs=vendor
     - Fix the Group used
     - Create the first perl-Config-Augeas package from version 0.500 of Dominique Dumont
     - create perl-Config-Augeas
+
 

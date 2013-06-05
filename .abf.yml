@@ -1,2 +1,4 @@
+removed_sources:
+  Config-Augeas-0.903.tar.gz: ec6e0f328e7922ce952bfb8ef4a89f1e9ac4d836
 sources:
-  "Config-Augeas-0.903.tar.gz": ec6e0f328e7922ce952bfb8ef4a89f1e9ac4d836
+  Config-Augeas-1.000.tar.gz: b411fac8e6a4c7ded7c993cdf1f086439886b9a6
