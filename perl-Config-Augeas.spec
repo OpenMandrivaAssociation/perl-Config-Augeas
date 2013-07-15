@@ -1,5 +1,6 @@
 %define upstream_name       Config-Augeas
 %define upstream_version 1.000
+
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 1.000
 Release:	1
