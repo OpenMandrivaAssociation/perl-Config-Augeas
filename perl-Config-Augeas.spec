@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 1.000
-Release:	1
+Release:	2
 Summary:	Edit configuration files through Augeas C library
 License:	GPL or Artistic
 Group:		Development/Perl
