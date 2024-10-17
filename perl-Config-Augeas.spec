@@ -7,7 +7,7 @@ Release:	3
 Summary:	Edit configuration files through Augeas C library
 License:	GPL or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source:		http://www.cpan.org/modules/by-module/Config/Config-Augeas-1.000.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:	perl(Module::Build)
