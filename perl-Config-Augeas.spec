@@ -1,13 +1,11 @@
 %define upstream_name       Config-Augeas
-%define upstream_version 1.000
-
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 1.000
-Release:	3
+Version:	1.000
+Release:	4
 Summary:	Edit configuration files through Augeas C library
 License:	GPL or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
+Url:		https://metacpan.org/dist/%{upstream_name}
 Source:		http://www.cpan.org/modules/by-module/Config/Config-Augeas-1.000.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:	perl(Module::Build)
@@ -32,7 +30,7 @@ configuration edition library with a more "perlish" API than Augeas C
 counterpart.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version} 
+%setup -q -n %{upstream_name}-%{version} 
 
 %build
 perl Build.PL installdirs=vendor
